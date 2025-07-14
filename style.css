@@ -214,16 +214,76 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 72px;
 }
 .album{
-    width: 25%;
+    width: 40%;
+    /* border: 1px solid white; */
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px; */
+}
+
+.album .text{
+   height: 30px;
+   font-size: 12px;
+   line-height: 4px;
+   margin-left: 0;
+   margin-right: 0;
+}
+.album .pic{
+    width: 50%;
+    display: flex;
+    height: 66px; 
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.album .pic img{
+    height: 50px;
+    width: 50px;
+    margin-top: 8px;
+}
+.album .icons{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album .icons img{
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.album .icons .ico{
+     height: 32px;
 }
 .player{
-    width: 50%;
+    width: 80%;
 }
 .controls{
     width: 50%;
+    /* border: 1px solid white; */
+    height: 66px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
 }
+
+.controls img{
+     height: 22px;
+     margin: 6px;
+     color: white;
+}
+
+.controls .ico{
+     height: 38px;
+}
+
+
 
 .player-icon-control{
     height: 1rem;
@@ -269,4 +329,11 @@ a{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.controls .in{
+    width: 35%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
 }
